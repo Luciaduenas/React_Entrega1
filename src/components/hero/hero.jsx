@@ -6,7 +6,7 @@ import { Button } from "../button/button";
 export const Hero = () => {
     return (
         <HeroContainer>
-                <CoverImg src="public/images/cover.jpg" alt="cover image" />
+                <CoverImg src="public/cover.jpg" alt="cover image" />
             <TextContainer>
                 <h1>All GOOD VIBES & COLOR.</h1>
                 <p> We handpick the happiest items to bright up your life!</p>
