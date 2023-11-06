@@ -9,7 +9,7 @@ import { FaPinterestSquare } from "react-icons/fa";
 export const Footer = () => {
     return ( 
         <FooterContainer>
-            <FooterLogo src="public/LOGO HAPPY COLORS.png" alt="Happy Colors Logo" />
+            <FooterLogo src="/LOGO HAPPY COLORS.png" alt="Happy Colors Logo" />
             <SocialContainer>
                 <h4>Follow us on social Media</h4>
                 <SocialLinksContainer>

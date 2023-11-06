@@ -8,7 +8,7 @@ import { NavbarLogo, NavbarLinksCartContainer, CartContsiner, NabvarLinksContain
 export const Navbar = () => {
 return (
     <NavbarContainer>
-        <NavbarLogo src="public/LOGO HAPPY COLORS.png" alt="Happy Colors Logo" />
+        <NavbarLogo src="/LOGO HAPPY COLORS.png" alt="Happy Colors Logo" />
         <NavbarLinksCartContainer>
             <NabvarLinksContainer>
                     <motion.div whileHover={{scale:0.97}}>  
