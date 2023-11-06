@@ -1,7 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    *{
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+        
+        *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -9,8 +11,6 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Fredoka', sans-serif;
         font-family: 'Zilla Slab Highlight', serif;
     }
-   
-    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
 
     :root {
     --beige-bg: #f2e1de;
