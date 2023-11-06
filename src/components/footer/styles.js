@@ -23,6 +23,7 @@ export const SocialContainer = styled.div `
         text-align: center;
         @media (max-width:768px) {
          font-size: 30px ;
+         text-align: center;
         }
     }
 `
