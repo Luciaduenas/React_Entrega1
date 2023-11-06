@@ -20,6 +20,7 @@ export const SocialContainer = styled.div `
         font-family: 'Caveat', cursive;
         font-size: 45px;
         color: var(--pinkred);
+        text-align: center;
         @media (max-width:768px) {
          font-size: 30px ;
         }
