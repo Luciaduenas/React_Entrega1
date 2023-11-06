@@ -17,7 +17,7 @@ export const TextBannerContainer = styled.div `
         font-weight: 500;
         color: white;
         @media (max-width:768px) {
-        font-size: 45px ;
+        font-size: 30px ;
     }
     }
 `

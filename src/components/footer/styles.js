@@ -20,16 +20,23 @@ export const SocialContainer = styled.div `
         font-family: 'Caveat', cursive;
         font-size: 45px;
         color: var(--pinkred);
+        @media (max-width:768px) {
+         font-size: 30px ;
+        }
     }
 `
 export const SocialLinksContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 45px;
     gap: 1rem;
     a{
         color: var(--pinkred);
+        @media (max-width:768px) {
+         font-size: 30px ;
+        }
     }
 `
 

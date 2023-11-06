@@ -37,4 +37,7 @@ export const NavbarLink = styled.a`
     font-family: 'Caveat', cursive;
     font-size: 3rem;
     font-weight: 300;
+    @media (max-width: 768px) {
+     font-size: 1.5rem ;
+    }
 `
